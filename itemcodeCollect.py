@@ -95,11 +95,11 @@ def select_file():
 
 root = tk.Tk()
 root.title("상품별 수량 합계 프로그램")
-root.geometry("380x170")
+root.geometry("480x200")
 
 label = tk.Label(
     root,
-    text="엑셀 파일을 선택하면\n상품코드별 수량 합계를 계산합니다.",
+    text="엑셀 파일을 선택하면\n상품코드별 수량 합계를 계산합니다.\n A열헤더에 '상품코드', B열헤더에 '수량'을 기재해야 합니다.",
     font=("맑은 고딕", 11)
 )
 label.pack(pady=20)
